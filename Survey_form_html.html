@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>COVID-19 SURVEY FORM</title>
+        <!--stylesheet-->
+        <link rel="stylesheet" href="./survey_form_css.css">
+    </head>
+<body>
+<h1>COVID-19 SURVEY FORM</h1>
+<!-- Create Form -->
+<div id="outside">
+    <form >
+      <p id="description">
+ 
+          <b>Note:Please fill right information.</b><br>
+          <b>For more information call to helpline - 701723.</b><br>
+          
+        </p>
+      </form>
+</div>
+<form id="form">
+    <!--giving details-->
+    <div class = "form-details">
+        <label for = "name">
+            Name : 
+        </label>
+
+        <input type = "text" id = "name" placeholder="Enter your Name">
+    </div>
+
+    <div class = "form-details">
+        <label for = "email" id = "label-email">
+            Email : 
+        </label>
+
+        <input type = "text" id = "email" placeholder="Enter Your Primary Email">
+    </div>
+
+    <div class = "form-details">
+        <label for = "phone_number" id = "label-phone_number">
+            Phone Number : 
+        </label>
+
+        <input type = "number" id = "phone_number" placeholder="Enter phone number">
+    </div>
+
+    <div class = "form-details">
+        <label for = "Age" id = "label-age">
+            Age : 
+        </label>
+
+        <input type = "number" id = "Age" placeholder="Enter Age">
+    </div>
+
+    <div class = "form-details">
+        <label for = "Gender" id = "label-gender">
+            Gender : 
+        </label>
+        <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female" checked> Female<br>
+        <input type="radio" name="gender" value="other" checked> Other<br>
+        </p>
+    </div>
+
+    <div class = "form-details">
+        <label for = "State" id = "label-state">
+            State :
+        </label>
+
+        <input type = "text" id = "State" placeholder = "Enter your current state">
+
+    </div>
+
+    <div class = "form-details">
+        <label for = "address" id = "label-address">
+            Address :
+
+        </label>
+
+        <p>
+        <textarea type = "text" name = "address" placeholder="Enter your current Address"> 
+
+
+        </textarea>
+    </p>
+    </div>
+
+    <div class = "form-details">
+        <label for = "covid" id = "label-covid">
+             Have you been personally affected by COVID-19 ? 
+        </label>
+        <p>
+        <input type="radio" name="covid" value="yes" checked> Yes<br>
+        <input type="radio" name="covid" value="no" checked> No<br>
+        </p>
+    </div>
+    
+    <div class = "form-details">
+        <label for = "vaccine" id = "label-vaccine">
+            Are You Fully Vaccinated ?
+        </label>
+         
+        <p>
+        <input type="radio" name="vaccine" value="yes" checked>FULLY VACCINATED<br>
+        <input type="radio" name="vaccine" value="half" checked>FIRST DOSE ONLY <br>
+        <input type="radio" name="vaccine" value="no" checked>NOT YET VACCINATED<br>
+        </p>
+    </div>
+
+    <div class = "form-details">
+        <label>
+            Are you experiencing any of these symptoms ?
+        </label>
+        <!-- Input Type Checkbox -->
+        <p>
+        <label for="inp-1">
+            <input type="checkbox" name="inp">Fever</input>
+        </label>
+        <label for="inp-2">
+            <input type="checkbox" name="inp">Cough<br>
+        </label>
+        <label for="inp-3">
+            <input type="checkbox" name="inp">Runny nose</input>
+        </label>
+        <label for="inp-4">
+            <input type="checkbox" name="inp">Breathing Problem<br>
+        </label>
+        <label for="inp-5">
+            <input type="checkbox" name="inp">Headache</input>
+        </label>
+        <label for="inp-6">
+            <input type="checkbox" name="inp">Weakness<br>
+        </label>
+        <label for="inp-7">
+            <input type="checkbox" name="inp">Fatigue</input>
+        </label>
+        <label for="inp-7">
+            <input type="checkbox" name="inp">Constipation<br>
+        </label>
+        </p>
+
+
+    </div>
+
+    <div class = "form-details">
+        <label>
+            Are you suffering with any of these disorders ?
+        </label>
+        <!-- Input Type Checkbox -->
+        <p>
+        <label for="inp-1">
+            <input type="checkbox" name="inp">Diabetes</input>
+        </label>
+        <label for="inp-2">
+            <input type="checkbox" name="inp">High Blood Pressure<br>
+        </label>
+        <label for="inp-3">
+            <input type="checkbox" name="inp">PCOS</input>
+        </label>
+        <label for="inp-4">
+            <input type="checkbox" name="inp">Cancer<br>
+        </label>
+        <label for="inp-5">
+            <input type="checkbox" name="inp">Haemorroids</input>
+        </label>
+        <label for="inp-6">
+            <input type="checkbox" name="inp">Asthama</input>
+        </label>
+        <label for="inp-7">
+            <input type="checkbox" name="inp">AIDS<br>
+        </label>
+        <label for="inp-7">
+            <input type="checkbox" name="inp">NONE<br>
+        </label>
+    </p>
+    </div>
+
+    <button type="submit" value="submit">
+        SUBMIT
+    </button>
+
+</form>
+</body>
+</html>
